@@ -1,0 +1,8 @@
+rancher_catalogs:
+  catalogs:
+    library:
+      url: https://git.rancher.io/rancher-catalog.git
+      branch: "${RELEASE}"
+    community:
+      url: https://git.rancher.io/community-catalog.git
+      branch: master
