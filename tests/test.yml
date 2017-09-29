@@ -1,5 +1,8 @@
 ---
 - hosts: localhost
   remote_user: root
+  vars:
+    rancher_api_key: "mykey"
+    rancher_api_secret: "mysecret"
   roles:
     - rancher-configure-catalog-ansible-role

@@ -2,6 +2,14 @@
 
 Ansible role to configure default rancher catalogs.
 
+
+Mandatory Variables
+-------------------
+```
+rancher_api_key: "mykey"
+rancher_api_secret: "mysecret"
+```
+
 Role Variables
 --------------
 
